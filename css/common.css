@@ -1,0 +1,48 @@
+/* 
+    Document   : common
+    Created on : Dec 18, 2012, 12:27:45 PM
+    Author     : dmitry
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.spinner_block {
+        position:absolute;
+        top:50%;
+        left:50%;
+        z-index: 999999;
+}
+
+.employee-disabled {
+    opacity: 0.6;
+}
+
+.year-select {
+    width:70px;
+}
+
+.day-select {
+    width:50px;
+}
+
+.month-select {
+    width:100px;
+}
+
+.choose-year {
+    height:40px;
+}
+
+.year-button {
+    float:right;
+}
+
+.vocation-field {
+    margin:10px;
+}
+
+td.vac {
+    background-color: red;
+    color: white;
+    font-size: small;
+}

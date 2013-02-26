@@ -1,0 +1,11 @@
+template_function: _.template
+compress_assets: no
+template_extension: html
+gzip_assets: no
+javascripts:
+  workspace:
+    - jst/emploees/*.html
+    - jst/notices/*.html
+    - jst/dashboard/*.html
+    - jst/developers/*.html
+    - jst/users/*.html

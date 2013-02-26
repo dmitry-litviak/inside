@@ -1,0 +1,89 @@
+<% senior = false %>
+<% middle = false %>
+<% junior = false %>
+<% project = false %>
+<% _.each(developers, function(developer) { %>
+    <% if (developer.level != 4) { %>
+    <% if (active == "all_dev") { %>
+        <% if (developer.level == 3 && !senior) { %>
+            <h3>Senior Developers:</h3>
+            <% senior = true %>
+        <% } %>
+        <% if (developer.level == 2 && !middle) { %>
+            <h3>Middle Developers:</h3>
+            <% middle = true %>
+        <% } %>
+        <% if (developer.level == 1 && !junior) { %>
+            <h3>Junior Developers:</h3>
+            <% junior = true %>
+        <% } %>
+    <% } %>
+    <div class="user">
+        <div class="left">
+                <div class="ava">
+                    <img src="<%= developer.avatar %>" alt="" width="80" height="80">
+                </div>
+        </div>
+        <div class="right">
+                <div class="name">
+                        <p><%= developer.name %> <span>(<%= developer.role %>)</span></p>
+                </div>
+                <div class="english"><p>English level: <span><%= developer.english %></span></p></div>
+                <ul class="contacts">
+                        <% if (developer.skype) { %>
+                            <li>skype: <%= developer.skype %></li>
+                        <% } %>
+                        <li>email: <%= developer.email %></li>
+                        <% if (developer.twitter) { %>
+                            <li>twitter: <%= developer.twitter %></li>
+                        <% } %>
+                        <% if (developer.phone) { %>
+                            <li>phone: <%= developer.phone %></li>
+                        <% } %>
+                </ul>
+                <% _.each(developer.certificates, function(cert){%>
+                    <div class="cert"><span class="label label-success">Brainbench <%= cert %></span></div>
+                <% }) %>
+        </div>
+    </div>
+    <% } %>
+<% }) %>
+
+<% _.each(developers, function(developer) { %>
+    <% if (developer.level == 4) { %>
+    <% if (active == "all_dev") { %>
+        <% if (developer.level == 4 && !project) { %>
+            <h3>Project Managers:</h3>
+            <% project = true %>
+        <% } %>
+    <% } %>
+    <div class="user">
+        <div class="left">
+                <div class="ava">
+                    <img src="<%= developer.avatar %>" alt="" width="80" height="80">
+                </div>
+        </div>
+        <div class="right">
+                <div class="name">
+                        <p><%= developer.name %> <span>(<%= developer.role %>)</span></p>
+                </div>
+                <div class="english"><p>English level: <span><%= developer.english %></span></p></div>
+                <ul class="contacts">
+                        <% if (developer.skype) { %>
+                            <li>skype: <%= developer.skype %></li>
+                        <% } %>
+                        <li>email: <%= developer.email %></li>
+                        <% if (developer.twitter) { %>
+                            <li>twitter: <%= developer.twitter %></li>
+                        <% } %>
+                        <% if (developer.phone) { %>
+                            <li>phone: <%= developer.phone %></li>
+                        <% } %>
+                </ul>
+                <% _.each(developer.certificates, function(cert){%>
+                    <div class="cert"><span class="label label-success">Brainbench <%= cert %></span></div>
+                <% }) %>
+        </div>
+    </div>
+    <% } %>
+<% }) %>

@@ -1,0 +1,9 @@
+<% _.each(days, function(day){%>
+    <option value="<%= day %>">
+        <% if (day.length == 2) { %>
+            <%= day %>
+        <% } else { %>
+            <%= "0" + day %>
+        <% } %>
+    </option>
+<% }) %>

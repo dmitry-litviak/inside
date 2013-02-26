@@ -1,0 +1,12 @@
+1. В папке ldssite/application создать папки cache и logs
+Исполнить в терминале команду chmod -R 777 <путь к папке проекта>
+Например у меня это выглядит так: chmod -R 777 /Application/MAMP/htdocs/ldssite
+2. В файле ldssite/application/config/ есть файл database, в нем password поставить твой от MySQL
+3. Накатить последний дамп базы, лежит в папке db_backups
+4. 
+Адрес: 
+Логинка для рядовых пользователей:
+http://localhost/ldssite
+Логинка для админов:
+http://localhost/ldssite/admin/login
+

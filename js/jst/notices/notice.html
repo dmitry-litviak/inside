@@ -1,0 +1,8 @@
+<section class="our_notice" id="<%= id %>">
+    <div class="alert alert-<%= type %>">
+<!--        <button type="button" class="close" data-dismiss="alert">×</button>-->
+        <strong><%= status_title %></strong> <%= text %>
+    </div>
+    <div class="btn btn-mini remove" onclick="javascript: index.destroyer(this)">remove this notice</div>
+    <div class="btn btn-mini activate" onclick="javascript: index.activator(this)">make non-active</div>
+</section>

@@ -1,0 +1,10 @@
+application/cache/*
+application/logs/*
+files/users/*
+files/temp/*
+# Ignore RubyMine area
+/.idea
+# Ignore NetBeans area
+/nbproject
+.DS_Store
+/application/config/database.php

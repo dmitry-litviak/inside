@@ -1,0 +1,13 @@
+
+<input id="input-avatar" data-action="none" type="hidden" value="<%= data.avatar_hidden %>" name="avatar[avatar]"/>
+<input id="crop-avatar" data-action="none" type="hidden" value="" name="avatar[crop_avatar]"/>
+<div class="uploaded_avatar">
+        <div class="left">
+                <div class="fileselector">
+                    <input id="fileupload" type="file" name="file" data-url="<%= data.url %>" enctype="multipart/form-data"/>
+                </div>
+                <figure class="full-avatar">
+                        <img src="<%= data.avatar %>" alt="">
+                </figure>
+        </div>
+</div>

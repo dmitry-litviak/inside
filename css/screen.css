@@ -1,0 +1,297 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 18, ../scss/screen.scss */
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: helvetica;
+  margin: 0px 0px 6px 2px;
+  font-size: 24.5px;
+  line-height: 40px;
+  margin: 6px 0px 6px 5px;
+  font-weight: bold;
+  color: inherit;
+  text-rendering: optimizelegibility;
+  color: #5A5A5A; }
+
+/* line 37, ../scss/screen.scss */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  background-color: white; }
+
+/* line 46, ../scss/screen.scss */
+strong {
+  font-weight: bold; }
+
+/* -----------------------------------*/
+/* ---------->>> HEADER <<<-----------*/
+/* -----------------------------------*/
+/* ------------------------------------*/
+/* ---------->>> CONTENT <<<-----------*/
+/* ------------------------------------*/
+/* line 65, ../scss/screen.scss */
+.login {
+  border: 1px solid #eee;
+  padding: 20px;
+  margin: 20px auto 0px;
+  width: 220px;
+  height: 110px; }
+
+/* line 74, ../scss/screen.scss */
+.main {
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px 0px 0px 0px; }
+  /* line 80, ../scss/screen.scss */
+  .main .sidebar {
+    float: left;
+    width: 228px; }
+    /* line 84, ../scss/screen.scss */
+    .main .sidebar .myinfo {
+      border: 1px solid #e5e5e5;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      border-radius: 6px;
+      margin: 0px 0px 8px 0px;
+      padding: 10px; }
+      /* line 95, ../scss/screen.scss */
+      .main .sidebar .myinfo img {
+        display: block;
+        margin: 0 auto;
+        max-width: 206px;
+        max-height: 600px; }
+      /* line 102, ../scss/screen.scss */
+      .main .sidebar .myinfo .totake {
+        padding: 6px 0px 0px 0px; }
+        /* line 105, ../scss/screen.scss */
+        .main .sidebar .myinfo .totake p {
+          font-size: 11px;
+          line-height: 12px; }
+        /* line 109, ../scss/screen.scss */
+        .main .sidebar .myinfo .totake ul {
+          padding: 12px 0px 0px 0px;
+          font-size: 11px; }
+          /* line 115, ../scss/screen.scss */
+          .main .sidebar .myinfo .totake ul li.done {
+            text-decoration: line-through;
+            color: #999; }
+    /* line 124, ../scss/screen.scss */
+    .main .sidebar .nav {
+      margin: 0px 0px 8px 0px; }
+  /* line 128, ../scss/screen.scss */
+  .main .content {
+    float: right;
+    width: 664px; }
+
+/* line 149, ../scss/screen.scss */
+.developers .user {
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  margin: 0px 0px 8px 0px;
+  padding: 8px;
+  font-size: 13px; }
+  /* line 164, ../scss/screen.scss */
+  .developers .user .left {
+    float: left;
+    width: 80px; }
+    /* line 168, ../scss/screen.scss */
+    .developers .user .left img {
+      display: block; }
+  /* line 172, ../scss/screen.scss */
+  .developers .user .right {
+    float: right;
+    width: 558px; }
+    /* line 176, ../scss/screen.scss */
+    .developers .user .right div, .developers .user .right ul {
+      margin: 0px 0px 4px 0px; }
+  /* line 186, ../scss/screen.scss */
+  .developers .user .name span {
+    color: #212121; }
+
+/* line 193, ../scss/screen.scss */
+.career {
+  margin: 0px 0px 8px 0px; }
+  /* line 196, ../scss/screen.scss */
+  .career .info {
+    margin: 0px 0px 8px 0px; }
+
+/* line 202, ../scss/screen.scss */
+.about-certifitations p {
+  margin: 0px 0px 12px 0px; }
+
+/* line 211, ../scss/screen.scss */
+.dashboard .date {
+  color: #ccc;
+  font-size: 12px; }
+
+/* line 229, ../scss/screen.scss */
+.user-edit-page .uploaded_avatar .left {
+  float: left; }
+/* line 230, ../scss/screen.scss */
+.user-edit-page .uploaded_avatar .right {
+  float: right; }
+/* line 232, ../scss/screen.scss */
+.user-edit-page .uploaded_avatar .fileselector {
+  margin: 0px 0px 8px 0px; }
+/* line 236, ../scss/screen.scss */
+.user-edit-page .uploaded_avatar img {
+  display: block;
+  margin: 0px 0px 4px 0px; }
+/* line 241, ../scss/screen.scss */
+.user-edit-page .uploaded_avatar .full-avatar {
+  max-width: 200px; }
+/* line 245, ../scss/screen.scss */
+.user-edit-page .uploaded_avatar .cropped-avatar img {
+  max-width: 100px; }
+
+/* -----------------------------------*/
+/* ---------->>> FOOTER <<<-----------*/
+/* -----------------------------------*/
+/* nav */
+/* line 259, ../scss/screen.scss */
+.nav-list {
+  margin: 0px 0 0;
+  padding: 0;
+  background-color: white;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px; }
+  /* line 267, ../scss/screen.scss */
+  .nav-list li {
+    line-height: 20px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: 14px; }
+    /* line 273, ../scss/screen.scss */
+    .nav-list li a {
+      display: block;
+      margin: 0 0 -1px;
+      padding: 8px 14px;
+      border: 1px solid #E5E5E5;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+      color: #08C;
+      text-decoration: none; }
+      /* line 282, ../scss/screen.scss */
+      .nav-list li a:hover {
+        background-color: whiteSmoke; }
+        /* line 285, ../scss/screen.scss */
+        .nav-list li a:hover i {
+          opacity: .5; }
+      /* line 290, ../scss/screen.scss */
+      .nav-list li a i {
+        float: right;
+        margin-top: 2px;
+        margin-right: -6px;
+        opacity: .25;
+        background-position: -456px -72px;
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        line-height: 14px;
+        vertical-align: text-top;
+        background-image: url("../images/glyphicons-halflings.png");
+        background-repeat: no-repeat; }
+  /* line 307, ../scss/screen.scss */
+  .nav-list li:last-child > a {
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px; }
+  /* line 313, ../scss/screen.scss */
+  .nav-list li:first-child > a {
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0; }
+
+/* line 325, ../scss/screen.scss */
+.filter .nav-pills li a {
+  border: 1px solid #E5E5E5; }
+/* line 331, ../scss/screen.scss */
+.filter .nav-pills-left {
+  float: left; }
+/* line 332, ../scss/screen.scss */
+.filter .nav-pills-right {
+  float: right; }
+
+/* -----------------------------------*/
+/* ---------->>> CLEARS <<<-----------*/
+/* -----------------------------------*/
+/* line 343, ../scss/screen.scss */
+.flw:after, .main:after, .developers .user:after, .user-edit-page .uploaded_avatar:after, .filter:after {
+  display: block;
+  content: ".";
+  clear: both;
+  font-size: 0;
+  line-height: 0;
+  height: 0;
+  overflow: hidden; }
+
+/* line 344, ../scss/screen.scss */
+.usel {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }

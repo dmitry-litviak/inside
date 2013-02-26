@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/usr/bin/wget --output-document=/dev/null http://inside.lodossteam.com/cron/

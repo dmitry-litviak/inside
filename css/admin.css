@@ -1,0 +1,263 @@
+/* line 17, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 13, ../scss/admin.scss */
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: helvetica;
+  margin: 0px 0px 6px 2px;
+  font-size: 24.5px;
+  line-height: 40px;
+  margin: 6px 0px 6px 5px;
+  font-weight: bold;
+  color: inherit;
+  text-rendering: optimizelegibility;
+  color: #5A5A5A; }
+
+/* line 31, ../scss/admin.scss */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  background-color: white; }
+
+/* line 40, ../scss/admin.scss */
+strong {
+  font-weight: bold; }
+
+/* -----------------------------------*/
+/* ---------->>> HEADER <<<-----------*/
+/* -----------------------------------*/
+/* line 48, ../scss/admin.scss */
+.login {
+  border: 1px solid #eee;
+  padding: 20px;
+  margin: 20px auto 0px;
+  width: 220px;
+  height: 110px;
+  background-color: #eee; }
+
+/* line 57, ../scss/admin.scss */
+.main {
+  width: 900px;
+  margin: 0 auto;
+  padding: 10px 0px 0px 0px; }
+  /* line 63, ../scss/admin.scss */
+  .main .sidebar {
+    float: left;
+    width: 228px; }
+    /* line 67, ../scss/admin.scss */
+    .main .sidebar .nav {
+      margin: 0px 0px 8px 0px; }
+  /* line 72, ../scss/admin.scss */
+  .main .content {
+    float: right;
+    width: 664px; }
+    /* line 82, ../scss/admin.scss */
+    .main .content .employees .emp_table {
+      width: 100%;
+      margin: 14px 0px; }
+      /* line 86, ../scss/admin.scss */
+      .main .content .employees .emp_table .tbl_buttons {
+        width: 16px; }
+      /* line 90, ../scss/admin.scss */
+      .main .content .employees .emp_table .icon {
+        text-indent: -9999em;
+        cursor: pointer; }
+    /* line 99, ../scss/admin.scss */
+    .main .content .employees_add .brainbench_cert {
+      margin-bottom: 12px; }
+    /* line 106, ../scss/admin.scss */
+    .main .content .employees_add .uploaded_avatar .left {
+      float: left; }
+    /* line 107, ../scss/admin.scss */
+    .main .content .employees_add .uploaded_avatar .right {
+      float: right; }
+    /* line 109, ../scss/admin.scss */
+    .main .content .employees_add .uploaded_avatar .fileselector {
+      margin: 0px 0px 8px 0px; }
+    /* line 113, ../scss/admin.scss */
+    .main .content .employees_add .uploaded_avatar img {
+      display: block;
+      margin: 0px 0px 4px 0px; }
+    /* line 118, ../scss/admin.scss */
+    .main .content .employees_add .uploaded_avatar .full-avatar {
+      max-width: 200px; }
+    /* line 122, ../scss/admin.scss */
+    .main .content .employees_add .uploaded_avatar .cropped-avatar img {
+      max-width: 100px; }
+    /* line 132, ../scss/admin.scss */
+    .main .content .admin_notices .select_wrap {
+      margin: 0px 0px 8px 0px; }
+    /* line 135, ../scss/admin.scss */
+    .main .content .admin_notices textarea {
+      width: 95%; }
+    /* line 139, ../scss/admin.scss */
+    .main .content .admin_notices .our_notice {
+      margin: 0px 0px 20px 0px; }
+      /* line 143, ../scss/admin.scss */
+      .main .content .admin_notices .our_notice .alert {
+        margin: 0px 0px 5px 0px; }
+    /* line 148, ../scss/admin.scss */
+    .main .content .admin_notices .nonactive_notice .alert {
+      opacity: 0.3; }
+    /* line 155, ../scss/admin.scss */
+    .main .content .dashboard_edit ul li {
+      margin: 0px 0px 5px 0px; }
+
+/* forms */
+/* line 167, ../scss/admin.scss */
+.content select, .content textarea, .content input[type="text"], .content input[type="password"], .content input[type="datetime"], .content input[type="datetime-local"], .content input[type="date"], .content input[type="month"], .content input[type="time"], .content input[type="week"], .content input[type="number"], .content input[type="email"], .content input[type="url"], .content input[type="search"], .content input[type="tel"], .content input[type="color"], .content .uneditable-input {
+  margin-bottom: 0px; }
+/* line 170, ../scss/admin.scss */
+.content input[type="radio"], .content input[type="checkbox"] {
+  margin-bottom: 0px;
+  margin-top: 0px; }
+/* line 174, ../scss/admin.scss */
+.content select, .content input[type="file"] {
+  line-height: 16px;
+  height: auto !important; }
+
+/* end of forms */
+/* nav */
+/* line 227, ../scss/admin.scss */
+.nav-list {
+  margin: 0px 0 0;
+  padding: 0;
+  background-color: white;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px; }
+  /* line 235, ../scss/admin.scss */
+  .nav-list li {
+    line-height: 20px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: 14px; }
+    /* line 241, ../scss/admin.scss */
+    .nav-list li a {
+      display: block;
+      margin: 0 0 -1px;
+      padding: 8px 14px;
+      border: 1px solid #E5E5E5;
+      text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+      color: #08C;
+      text-decoration: none; }
+      /* line 250, ../scss/admin.scss */
+      .nav-list li a:hover {
+        background-color: whiteSmoke; }
+        /* line 253, ../scss/admin.scss */
+        .nav-list li a:hover i {
+          opacity: .5; }
+      /* line 258, ../scss/admin.scss */
+      .nav-list li a i {
+        float: right;
+        margin-top: 2px;
+        margin-right: -6px;
+        opacity: .25;
+        background-position: -456px -72px;
+        display: inline-block;
+        width: 14px;
+        height: 14px;
+        line-height: 14px;
+        vertical-align: text-top;
+        background-image: url("../images/glyphicons-halflings.png");
+        background-repeat: no-repeat; }
+  /* line 275, ../scss/admin.scss */
+  .nav-list li:last-child > a {
+    -webkit-border-radius: 0 0 6px 6px;
+    -moz-border-radius: 0 0 6px 6px;
+    border-radius: 0 0 6px 6px; }
+  /* line 281, ../scss/admin.scss */
+  .nav-list li:first-child > a {
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0; }
+
+/* line 293, ../scss/admin.scss */
+.filter .nav-pills li a {
+  border: 1px solid #E5E5E5; }
+/* line 299, ../scss/admin.scss */
+.filter .nav-pills-left {
+  float: left; }
+/* line 300, ../scss/admin.scss */
+.filter .nav-pills-right {
+  float: right; }
+
+/* -----------------------------------*/
+/* ---------->>> CLEARS <<<-----------*/
+/* -----------------------------------*/
+/* line 307, ../scss/admin.scss */
+.flw:after, .main:after, .main .content .employees_add .uploaded_avatar:after, .main .content .admin_notices .our_notice:after, .filter:after {
+  display: block;
+  content: ".";
+  clear: both;
+  font-size: 0;
+  line-height: 0;
+  height: 0;
+  overflow: hidden; }
+
+/* line 308, ../scss/admin.scss */
+.usel {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }

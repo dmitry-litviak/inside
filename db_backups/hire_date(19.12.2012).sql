@@ -1,0 +1,1 @@
+ALTER TABLE users ADD hire_date timestamp NULL DEFAULT NULL;
