@@ -53,7 +53,11 @@ class Controller_Admin_Employees extends My_AdminController {
                 $user_model->save();
                 $user_model->update_user(array('avatar' => Helper_Uploader::replaceAvatarImage($this->request->post('avatar.avatar'), $user_model, $this->request->post('avatar.crop_avatar'))), array('avatar'));
                 $user_model->add('roles', ORM::factory('Role')->where('name', '=', 'login')->find());
-                
+                $notices = ORM::factory('Notice')->find_all();
+                foreach ($notices as $notice) {
+                    $user_model->add('notices', ORM::factory('Notice')->where('id', '=', $notice->id)->find());
+                }
+
                 ORM::factory('Feed')->values(array('type' => 'add', 'user_id' => $user_model->id, 'level' => $user_model->level_id), array('type', 'user_id', 'level'))->save();
                 
                 ORM::factory('Certificate')->create_certificates($this->request->post('certificates'), $user_model->id);

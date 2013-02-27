@@ -16,7 +16,6 @@ class Helper_MainMenuHelper
                                 $obj->url = isset($item['url']) ? URL::base().$item['url'] : '#';
                             }
                             $obj->status 	= isset($item['status'])  ? $item['status']          : 0;
-                            $obj->icon = $item['icon'];
                             self::addItem($key, $obj);
                     }
                     
@@ -65,10 +64,10 @@ class Helper_MainMenuHelper
                 
                 if($item->status == 0)
                 {
-                    $html .= '<li><a href="' . $item->url . '">' . $item->icon . $item->name . '</a></li>';
+                    $html .= '<li><a href="' . $item->url . '"><i class="icon-chevron-right"></i>' . $item->name . '</a></li>';
                     $html .= '</li>';
                 } else {
-                    $html .= '<li class="active" ><a  href="' . $item->url . '">' . $item->icon  . $item->name . '</a></li>';
+                    $html .= '<li class="active" ><a  href="' . $item->url . '"><i class="icon-chevron-right"></i>' . $item->name . '</a></li>';
                     $html .= '</li>';
                 }
           }

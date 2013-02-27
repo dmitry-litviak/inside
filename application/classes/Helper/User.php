@@ -75,7 +75,7 @@ class Helper_User
                     echo '<div class="alert alert-success" data-id="' . $passing->id . '" data-type="passing"><button type="button" class="close" data-dismiss="alert">×</button><strong>Good news!</strong> '.$message.'</div>';
                 } else {
                     $message = 'You can pass '. $title . ' ' . $passing->type  . ' test in ' . ($passing->days - $diff_in_days) . ' days ';
-                    echo '<div class="alert alert-warning" data-id="' . $passing->id . '" data-type="passing"><button type="button" class="close" data-dismiss="alert">×</button><strong>Sorry,</strong> '.$message.'</div>';
+                    echo '<div class="alert alert-warning" data-id="' . $passing->id . '" data-type="passing"><button type="button" class="close" data-dismiss="alert">×</button><strong>Attention,</strong> '.$message.'</div>';
                 }
             }
         }

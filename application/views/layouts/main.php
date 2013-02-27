@@ -38,6 +38,9 @@
                     </ul>
                 <?php endif; ?>
                 <?php Helper_MainMenuHelper::render();?>
+                <ul class="nav nav-list">
+                    <li><a href="<?php echo URL::site('session/logout') ?>">Logout</a></li>
+                </ul>
             </section>
             <section class="content">
                 <?php if (Helper_Display::instance()->displayNotices()): ?>
