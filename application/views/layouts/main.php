@@ -25,7 +25,7 @@
                     <img src="<?php echo Helper_User::get_avatar_url(Auth::instance()->get_user(), 'medium_'); ?>" alt="">
                     <?php if (Auth::instance()->get_user()->level_id < 3): ?>
                         <div class="totake">
-                            <p>Хочешь стать <strong><?php echo Helper_User::get_high_level() ?> developer</strong>? <br>Для этого тебе нужно выполнить следующее:</p>
+                            <p>Want to be <strong><?php echo Helper_User::get_high_level() ?> developer</strong>? <br>You should do the following:</p>
                             <ul>
                                 <?php Helper_User::get_purposes() ?>
                             </ul>

@@ -3,7 +3,7 @@
 class My_Layout extends Controller {
 	
 	protected $_separator   = ' | ';
-	protected $_prefix 	= 'Lodoss';
+	protected $_prefix 	= 'Inside';
 	protected $_title 	= '';
 	protected $_keywords	= '';
 	protected $_description	= '';

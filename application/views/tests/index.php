@@ -1,5 +1,5 @@
 <div class="about-certifitations">
-        <p>Brainbench является одним из самых популярных тестов. Hа должность Senior developer необходимо сдать один из тестов по своей специальности с результатом не менее <strong>4.00</strong>. Сдавать тест можно не чаще чем раз в 3 месяца. Компания оплачивает как покупку теста, так и почтовую доставку.</p>
+        <p>Brainbench is one of the most popular tests. For Senior Developer your grade should be more than 4.00. Company will pay for test and for posting.</p>
         <h3>Brainbench</h3>
         <table class="table table-bordered table-striped" >
                 <tbody>
