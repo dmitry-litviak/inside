@@ -1,7 +1,7 @@
 <?php
 class Library_Mail {
-    private $_to      = array('admin@lodossteam.org' => 'Admin');
-    private $_from    = array('admin@lodossteam.org' => 'Admin');
+    private $_to      = array('admin@inside.org' => 'Admin');
+    private $_from    = array('admin@inside.org' => 'Admin');
     private $_subject = 'Hi';
     private $_headers = '';
     

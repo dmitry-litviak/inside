@@ -74,7 +74,7 @@ class Controller_Session extends My_UserController {
                     if (!$user->id) throw new Exception(Kohana::$config->load('messages')->get('forgot_email'));
                     $user->values(array('hash' => Auth::instance()->hash($user->email . time())))->update();
                     $data['recovery_url'] = URL::site('session/recovery/' . $user->hash);
-                    Library_Mail::factory()->setFrom(array('0' => 'noreply@lodoss.org'))->setTo(array('0' => $this->request->post('email')))->setSubject('Email Recovery')->setView('mail/recovery', $data)->send();
+                    Library_Mail::factory()->setFrom(array('0' => 'noreply@inside.org'))->setTo(array('0' => $this->request->post('email')))->setSubject('Email Recovery')->setView('mail/recovery', $data)->send();
                     Helper_Alert::setStatus('success');
                     Helper_Alert::set_flash(Kohana::$config->load('messages')->get('forgot_email_sent'));
                 }
